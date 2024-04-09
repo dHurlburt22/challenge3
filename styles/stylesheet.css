@@ -1,0 +1,159 @@
+body{
+    background: linear-gradient(#b348ff, #54ACD1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+/*.infoBar{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    font-size: .5rem;
+   
+}*/
+
+.gridContainer {
+    display: grid;
+    gap:20px;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    font-size: 1rem;
+    align-items: center;
+    color:white;
+}
+
+
+.singleBar{
+    grid-column-start: 4;
+    grid-row-start:7;
+    /*background-color: rgb(255, 25, 159); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.approvalBar{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.redX{
+    height:40px;
+    width:auto;
+    margin-left: 10px;
+}
+
+.greenCheck{
+    height:40px;
+    width:auto;
+    margin-left: 10px; 
+}
+
+.specialH2{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.zeebobBox{
+max-width: 100%;
+background-color: white;
+padding: 20px;
+border: solid 5px red;
+border-radius: 20px;
+margin: 0 auto;
+}
+
+.cubeBox{
+    height:auto;
+    width:120px;
+    background-color: white;
+    padding: 20px;
+    border: solid 5px yellow;
+    border-radius: 20px;
+    padding-bottom: 0px;
+    padding-top: 90px;
+    margin: 0 auto;
+}
+
+.breakerBox{
+    height: 145px;
+    width: auto;
+    background-color: white;
+    padding: 20px;
+    border: solid 5px rgb(0, 200, 255);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+
+.briefText{
+    width: 300px;
+    margin: 0 auto;
+    background-color: black;
+    border: solid 5px white;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+
+.iterationText{
+    width: 300px;
+    margin: 0 auto;
+    background-color: black;
+    border: solid 5px white;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.statusTextGreen{
+    background-color: rgb(147, 255, 147);
+    border: solid 5px black;
+    color: black;
+    width:100px;
+    padding: 40px 30px;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+.statusTextYellow{
+    background-color: rgb(249, 240, 113);
+    border: solid 5px black;
+    color: black;
+    width:100px;
+    padding: 40px 30px;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+.statusTextRed{
+    background-color: rgb(232, 22, 22);
+    border: solid 5px black;
+    color: black;
+    width:100px;
+    padding: 40px 30px;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
+    padding-right: 50px;
+}
